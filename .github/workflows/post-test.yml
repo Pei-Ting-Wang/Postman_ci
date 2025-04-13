@@ -24,4 +24,4 @@ jobs:
 
       - name: Run Postman Tests
         run: |
-          newman run ./postman/environment.json --reporters cli
+          newman run ./postman/beta_environment.json --reporters cli
